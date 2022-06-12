@@ -1,0 +1,31 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Test Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js",
+    "mongo": "sudo mongod --dbpath /Users/dementiev/db"
+  },
+  "keywords": [],
+  "author": "Dmitry Dementiev <info@dementiev.net>",
+  "license": "NONE",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
+    "morgan": "^1.9.1",
+    "npm": "^8.5.1",
+    "shortid": "^2.2.15",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "nodemon": "^2.0.2"
+  }
+}

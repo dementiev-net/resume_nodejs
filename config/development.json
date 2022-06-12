@@ -1,0 +1,7 @@
+{
+  "port": 5000,
+  "jwtSecret": "key",
+  "mongoServer": "https://cloud.mongodb.com",
+  "mongoUrl": "mongodb+srv://[user]:[pass]@cluster0.duybj.mongodb.net/resume?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}
